@@ -1,0 +1,2 @@
+# RTP_H264
+实现linux端的视频提取并编码成H264格式发送到Windows端，再通过FFMPEG解码成YUV420P码流，最后Opencv转码成RGB32实时显示
