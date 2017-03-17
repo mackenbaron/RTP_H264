@@ -1,0 +1,243 @@
+﻿生成启动时间为 2016/10/11 16:14:22。
+     1>项目“E:\Video_Project\program\Camera_Reciv\Camera_Reciv\Camera_Reciv.vcxproj”在节点 2 上(Rebuild 个目标)。
+     1>ClCompile:
+         C:\VS2015\VC\bin\CL.exe /c /I"C:\Program Files (x86)\Visual Leak Detector\include" /Zi /nologo /W3 /WX- /sdl- /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Yc"stdafx.h" /Fp"Release\Camera_Reciv.pch" /Fo"Release\\" /Fd"Release\vc140.pdb" /Gd /TP /analyze- /errorReport:prompt stdafx.cpp
+         stdafx.cpp
+         C:\VS2015\VC\bin\CL.exe /c /I"C:\Program Files (x86)\Visual Leak Detector\include" /Zi /nologo /W3 /WX- /sdl- /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Yu"stdafx.h" /Fp"Release\Camera_Reciv.pch" /Fo"Release\\" /Fd"Release\vc140.pdb" /Gd /TP /analyze- /errorReport:prompt Camera_Reciv.cpp FFMPEG_Decode.cpp RTPReciever.cpp
+         Camera_Reciv.cpp
+     1>e:\video_project\program\camera_reciv\camera_reciv\include\opencv2\flann\logger.h(66): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         C:\Program Files (x86)\Windows Kits\10\Include\10.0.10150.0\ucrt\stdio.h(205): note: 参见“fopen”的声明
+     1>e:\video_project\program\camera_reciv\camera_reciv\include\jrtplib\rtpsources.h(349): warning C4251: “jrtplib::RTPSources::sourcelist”: class“jrtplib::RTPKeyHashTable<const uint32_t,jrtplib::RTPInternalSourceData *,jrtplib::RTPSources_GetHashIndex,8317>”需要有 dll 接口由 class“jrtplib::RTPSources”的客户端使用
+     1>e:\video_project\program\camera_reciv\camera_reciv\include\jrtplib\rtpcollisionlist.h(89): warning C4251: “jrtplib::RTPCollisionList::addresslist”: class“std::list<jrtplib::RTPCollisionList::AddressAndTime,std::allocator<_Ty>>”需要有 dll 接口由 class“jrtplib::RTPCollisionList”的客户端使用
+                 with
+                 [
+                     _Ty=jrtplib::RTPCollisionList::AddressAndTime
+                 ]
+     1>e:\video_project\program\camera_reciv\camera_reciv\include\jrtplib\rtcpsdesinfo.h(189): warning C4251: “jrtplib::RTCPSDESInfo::nonprivateitems”: class“jrtplib::RTCPSDESInfo::SDESItem”需要有 dll 接口由 class“jrtplib::RTCPSDESInfo”的客户端使用
+         e:\video_project\program\camera_reciv\camera_reciv\include\jrtplib\rtcpsdesinfo.h(141): note: 参见“jrtplib::RTCPSDESInfo::SDESItem”的声明
+     1>e:\video_project\program\camera_reciv\camera_reciv\include\jrtplib\rtcpsdesinfo.h(212): warning C4251: “jrtplib::RTCPSDESInfo::privitems”: class“std::list<jrtplib::RTCPSDESInfo::SDESPrivateItem *,std::allocator<_Ty>>”需要有 dll 接口由 class“jrtplib::RTCPSDESInfo”的客户端使用
+                 with
+                 [
+                     _Ty=jrtplib::RTCPSDESInfo::SDESPrivateItem *
+                 ]
+     1>e:\video_project\program\camera_reciv\camera_reciv\include\jrtplib\rtcpsdesinfo.h(213): warning C4251: “jrtplib::RTCPSDESInfo::curitem”: class“std::_List_const_iterator<std::_List_val<std::_List_simple_types<jrtplib::RTCPSDESInfo::SDESPrivateItem *>>>”需要有 dll 接口由 class“jrtplib::RTCPSDESInfo”的客户端使用
+     1>e:\video_project\program\camera_reciv\camera_reciv\include\jrtplib\rtcppacketbuilder.h(217): warning C4251: “jrtplib::RTCPPacketBuilder::ownsdesinfo”: class“jrtplib::RTCPPacketBuilder::RTCPSDESInfoInternal”需要有 dll 接口由 class“jrtplib::RTCPPacketBuilder”的客户端使用
+         e:\video_project\program\camera_reciv\camera_reciv\include\jrtplib\rtcppacketbuilder.h(196): note: 参见“jrtplib::RTCPPacketBuilder::RTCPSDESInfoInternal”的声明
+     1>e:\video_project\program\camera_reciv\camera_reciv\include\jrtplib\rtcpcompoundpacket.h(104): warning C4251: “jrtplib::RTCPCompoundPacket::rtcppacklist”: class“std::list<jrtplib::RTCPPacket *,std::allocator<_Ty>>”需要有 dll 接口由 class“jrtplib::RTCPCompoundPacket”的客户端使用
+                 with
+                 [
+                     _Ty=jrtplib::RTCPPacket *
+                 ]
+     1>e:\video_project\program\camera_reciv\camera_reciv\include\jrtplib\rtcpcompoundpacket.h(105): warning C4251: “jrtplib::RTCPCompoundPacket::rtcppackit”: class“std::_List_const_iterator<std::_List_val<std::_List_simple_types<jrtplib::RTCPPacket *>>>”需要有 dll 接口由 class“jrtplib::RTCPCompoundPacket”的客户端使用
+     1>e:\video_project\program\camera_reciv\camera_reciv\include\jrtplib\rtcpcompoundpacketbuilder.h(380): warning C4251: “jrtplib::RTCPCompoundPacketBuilder::report”: class“jrtplib::RTCPCompoundPacketBuilder::Report”需要有 dll 接口由 class“jrtplib::RTCPCompoundPacketBuilder”的客户端使用
+         e:\video_project\program\camera_reciv\camera_reciv\include\jrtplib\rtcpcompoundpacketbuilder.h(150): note: 参见“jrtplib::RTCPCompoundPacketBuilder::Report”的声明
+     1>e:\video_project\program\camera_reciv\camera_reciv\include\jrtplib\rtcpcompoundpacketbuilder.h(381): warning C4251: “jrtplib::RTCPCompoundPacketBuilder::sdes”: class“jrtplib::RTCPCompoundPacketBuilder::SDES”需要有 dll 接口由 class“jrtplib::RTCPCompoundPacketBuilder”的客户端使用
+         e:\video_project\program\camera_reciv\camera_reciv\include\jrtplib\rtcpcompoundpacketbuilder.h(271): note: 参见“jrtplib::RTCPCompoundPacketBuilder::SDES”的声明
+     1>e:\video_project\program\camera_reciv\camera_reciv\include\jrtplib\rtcpcompoundpacketbuilder.h(383): warning C4251: “jrtplib::RTCPCompoundPacketBuilder::byepackets”: class“std::list<jrtplib::RTCPCompoundPacketBuilder::Buffer,std::allocator<_Ty>>”需要有 dll 接口由 class“jrtplib::RTCPCompoundPacketBuilder”的客户端使用
+                 with
+                 [
+                     _Ty=jrtplib::RTCPCompoundPacketBuilder::Buffer
+                 ]
+     1>e:\video_project\program\camera_reciv\camera_reciv\include\jrtplib\rtcpcompoundpacketbuilder.h(386): warning C4251: “jrtplib::RTCPCompoundPacketBuilder::apppackets”: class“std::list<jrtplib::RTCPCompoundPacketBuilder::Buffer,std::allocator<_Ty>>”需要有 dll 接口由 class“jrtplib::RTCPCompoundPacketBuilder”的客户端使用
+                 with
+                 [
+                     _Ty=jrtplib::RTCPCompoundPacketBuilder::Buffer
+                 ]
+     1>e:\video_project\program\camera_reciv\camera_reciv\include/jrtplib/rtpsession.h(565): warning C4251: “jrtplib::RTPSession::byepackets”: class“std::list<jrtplib::RTCPCompoundPacket *,std::allocator<_Ty>>”需要有 dll 接口由 class“jrtplib::RTPSession”的客户端使用
+                 with
+                 [
+                     _Ty=jrtplib::RTCPCompoundPacket *
+                 ]
+     1>e:\video_project\program\camera_reciv\camera_reciv\include/jrtplib/rtpudpv4transmitter.h(131): warning C4251: “jrtplib::RTPUDPv4TransmissionParams::localIPs”: class“std::list<uint32_t,std::allocator<_Ty>>”需要有 dll 接口由 class“jrtplib::RTPUDPv4TransmissionParams”的客户端使用
+                 with
+                 [
+                     _Ty=size_t
+                 ]
+     1>e:\video_project\program\camera_reciv\camera_reciv\include/jrtplib/rtpudpv4transmitter.h(163): warning C4251: “jrtplib::RTPUDPv4TransmissionInfo::localIPlist”: class“std::list<uint32_t,std::allocator<_Ty>>”需要有 dll 接口由 class“jrtplib::RTPUDPv4TransmissionInfo”的客户端使用
+                 with
+                 [
+                     _Ty=size_t
+                 ]
+     1>e:\video_project\program\camera_reciv\camera_reciv\include/jrtplib/rtpudpv4transmitter.h(262): warning C4251: “jrtplib::RTPUDPv4Transmitter::localIPs”: class“std::list<uint32_t,std::allocator<_Ty>>”需要有 dll 接口由 class“jrtplib::RTPUDPv4Transmitter”的客户端使用
+                 with
+                 [
+                     _Ty=size_t
+                 ]
+     1>e:\video_project\program\camera_reciv\camera_reciv\include/jrtplib/rtpudpv4transmitter.h(270): warning C4251: “jrtplib::RTPUDPv4Transmitter::destinations”: class“jrtplib::RTPHashTable<const jrtplib::RTPIPv4Destination,jrtplib::RTPUDPv4Trans_GetHashIndex_IPv4Dest,8317>”需要有 dll 接口由 class“jrtplib::RTPUDPv4Transmitter”的客户端使用
+     1>e:\video_project\program\camera_reciv\camera_reciv\include/jrtplib/rtpudpv4transmitter.h(272): warning C4251: “jrtplib::RTPUDPv4Transmitter::multicastgroups”: class“jrtplib::RTPHashTable<const uint32_t,jrtplib::RTPUDPv4Trans_GetHashIndex_uint32_t,8317>”需要有 dll 接口由 class“jrtplib::RTPUDPv4Transmitter”的客户端使用
+     1>e:\video_project\program\camera_reciv\camera_reciv\include/jrtplib/rtpudpv4transmitter.h(274): warning C4251: “jrtplib::RTPUDPv4Transmitter::rawpacketlist”: class“std::list<jrtplib::RTPRawPacket *,std::allocator<_Ty>>”需要有 dll 接口由 class“jrtplib::RTPUDPv4Transmitter”的客户端使用
+                 with
+                 [
+                     _Ty=jrtplib::RTPRawPacket *
+                 ]
+     1>e:\video_project\program\camera_reciv\camera_reciv\include/jrtplib/rtpudpv4transmitter.h(288): warning C4251: “jrtplib::RTPUDPv4Transmitter::acceptignoreinfo”: class“jrtplib::RTPKeyHashTable<const uint32_t,jrtplib::RTPUDPv4Transmitter::PortInfo *,jrtplib::RTPUDPv4Trans_GetHashIndex_uint32_t,8317>”需要有 dll 接口由 class“jrtplib::RTPUDPv4Transmitter”的客户端使用
+     1>e:\video_project\program\camera_reciv\camera_reciv\include/jrtplib/rtpsessionparams.h(242): warning C4251: “jrtplib::RTPSessionParams::cname”: class“std::basic_string<char,std::char_traits<char>,std::allocator<char>>”需要有 dll 接口由 class“jrtplib::RTPSessionParams”的客户端使用
+     1>e:\video_project\program\camera_reciv\camera_reciv\include/jrtplib/rtpsourcedata.h(430): warning C4251: “jrtplib::RTPSourceData::packetlist”: class“std::list<jrtplib::RTPPacket *,std::allocator<_Ty>>”需要有 dll 接口由 class“jrtplib::RTPSourceData”的客户端使用
+                 with
+                 [
+                     _Ty=jrtplib::RTPPacket *
+                 ]
+         FFMPEG_Decode.cpp
+     1>e:\video_project\program\camera_reciv\camera_reciv\include\opencv2\flann\logger.h(66): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         C:\Program Files (x86)\Windows Kits\10\Include\10.0.10150.0\ucrt\stdio.h(205): note: 参见“fopen”的声明
+     1>e:\video_project\program\camera_reciv\camera_reciv\include\jrtplib\rtpsources.h(349): warning C4251: “jrtplib::RTPSources::sourcelist”: class“jrtplib::RTPKeyHashTable<const uint32_t,jrtplib::RTPInternalSourceData *,jrtplib::RTPSources_GetHashIndex,8317>”需要有 dll 接口由 class“jrtplib::RTPSources”的客户端使用
+     1>e:\video_project\program\camera_reciv\camera_reciv\include\jrtplib\rtpcollisionlist.h(89): warning C4251: “jrtplib::RTPCollisionList::addresslist”: class“std::list<jrtplib::RTPCollisionList::AddressAndTime,std::allocator<_Ty>>”需要有 dll 接口由 class“jrtplib::RTPCollisionList”的客户端使用
+                 with
+                 [
+                     _Ty=jrtplib::RTPCollisionList::AddressAndTime
+                 ]
+     1>e:\video_project\program\camera_reciv\camera_reciv\include\jrtplib\rtcpsdesinfo.h(189): warning C4251: “jrtplib::RTCPSDESInfo::nonprivateitems”: class“jrtplib::RTCPSDESInfo::SDESItem”需要有 dll 接口由 class“jrtplib::RTCPSDESInfo”的客户端使用
+         e:\video_project\program\camera_reciv\camera_reciv\include\jrtplib\rtcpsdesinfo.h(141): note: 参见“jrtplib::RTCPSDESInfo::SDESItem”的声明
+     1>e:\video_project\program\camera_reciv\camera_reciv\include\jrtplib\rtcpsdesinfo.h(212): warning C4251: “jrtplib::RTCPSDESInfo::privitems”: class“std::list<jrtplib::RTCPSDESInfo::SDESPrivateItem *,std::allocator<_Ty>>”需要有 dll 接口由 class“jrtplib::RTCPSDESInfo”的客户端使用
+                 with
+                 [
+                     _Ty=jrtplib::RTCPSDESInfo::SDESPrivateItem *
+                 ]
+     1>e:\video_project\program\camera_reciv\camera_reciv\include\jrtplib\rtcpsdesinfo.h(213): warning C4251: “jrtplib::RTCPSDESInfo::curitem”: class“std::_List_const_iterator<std::_List_val<std::_List_simple_types<jrtplib::RTCPSDESInfo::SDESPrivateItem *>>>”需要有 dll 接口由 class“jrtplib::RTCPSDESInfo”的客户端使用
+     1>e:\video_project\program\camera_reciv\camera_reciv\include\jrtplib\rtcppacketbuilder.h(217): warning C4251: “jrtplib::RTCPPacketBuilder::ownsdesinfo”: class“jrtplib::RTCPPacketBuilder::RTCPSDESInfoInternal”需要有 dll 接口由 class“jrtplib::RTCPPacketBuilder”的客户端使用
+         e:\video_project\program\camera_reciv\camera_reciv\include\jrtplib\rtcppacketbuilder.h(196): note: 参见“jrtplib::RTCPPacketBuilder::RTCPSDESInfoInternal”的声明
+     1>e:\video_project\program\camera_reciv\camera_reciv\include\jrtplib\rtcpcompoundpacket.h(104): warning C4251: “jrtplib::RTCPCompoundPacket::rtcppacklist”: class“std::list<jrtplib::RTCPPacket *,std::allocator<_Ty>>”需要有 dll 接口由 class“jrtplib::RTCPCompoundPacket”的客户端使用
+                 with
+                 [
+                     _Ty=jrtplib::RTCPPacket *
+                 ]
+     1>e:\video_project\program\camera_reciv\camera_reciv\include\jrtplib\rtcpcompoundpacket.h(105): warning C4251: “jrtplib::RTCPCompoundPacket::rtcppackit”: class“std::_List_const_iterator<std::_List_val<std::_List_simple_types<jrtplib::RTCPPacket *>>>”需要有 dll 接口由 class“jrtplib::RTCPCompoundPacket”的客户端使用
+     1>e:\video_project\program\camera_reciv\camera_reciv\include\jrtplib\rtcpcompoundpacketbuilder.h(380): warning C4251: “jrtplib::RTCPCompoundPacketBuilder::report”: class“jrtplib::RTCPCompoundPacketBuilder::Report”需要有 dll 接口由 class“jrtplib::RTCPCompoundPacketBuilder”的客户端使用
+         e:\video_project\program\camera_reciv\camera_reciv\include\jrtplib\rtcpcompoundpacketbuilder.h(150): note: 参见“jrtplib::RTCPCompoundPacketBuilder::Report”的声明
+     1>e:\video_project\program\camera_reciv\camera_reciv\include\jrtplib\rtcpcompoundpacketbuilder.h(381): warning C4251: “jrtplib::RTCPCompoundPacketBuilder::sdes”: class“jrtplib::RTCPCompoundPacketBuilder::SDES”需要有 dll 接口由 class“jrtplib::RTCPCompoundPacketBuilder”的客户端使用
+         e:\video_project\program\camera_reciv\camera_reciv\include\jrtplib\rtcpcompoundpacketbuilder.h(271): note: 参见“jrtplib::RTCPCompoundPacketBuilder::SDES”的声明
+     1>e:\video_project\program\camera_reciv\camera_reciv\include\jrtplib\rtcpcompoundpacketbuilder.h(383): warning C4251: “jrtplib::RTCPCompoundPacketBuilder::byepackets”: class“std::list<jrtplib::RTCPCompoundPacketBuilder::Buffer,std::allocator<_Ty>>”需要有 dll 接口由 class“jrtplib::RTCPCompoundPacketBuilder”的客户端使用
+                 with
+                 [
+                     _Ty=jrtplib::RTCPCompoundPacketBuilder::Buffer
+                 ]
+     1>e:\video_project\program\camera_reciv\camera_reciv\include\jrtplib\rtcpcompoundpacketbuilder.h(386): warning C4251: “jrtplib::RTCPCompoundPacketBuilder::apppackets”: class“std::list<jrtplib::RTCPCompoundPacketBuilder::Buffer,std::allocator<_Ty>>”需要有 dll 接口由 class“jrtplib::RTCPCompoundPacketBuilder”的客户端使用
+                 with
+                 [
+                     _Ty=jrtplib::RTCPCompoundPacketBuilder::Buffer
+                 ]
+     1>e:\video_project\program\camera_reciv\camera_reciv\include/jrtplib/rtpsession.h(565): warning C4251: “jrtplib::RTPSession::byepackets”: class“std::list<jrtplib::RTCPCompoundPacket *,std::allocator<_Ty>>”需要有 dll 接口由 class“jrtplib::RTPSession”的客户端使用
+                 with
+                 [
+                     _Ty=jrtplib::RTCPCompoundPacket *
+                 ]
+     1>e:\video_project\program\camera_reciv\camera_reciv\include/jrtplib/rtpudpv4transmitter.h(131): warning C4251: “jrtplib::RTPUDPv4TransmissionParams::localIPs”: class“std::list<uint32_t,std::allocator<_Ty>>”需要有 dll 接口由 class“jrtplib::RTPUDPv4TransmissionParams”的客户端使用
+                 with
+                 [
+                     _Ty=size_t
+                 ]
+     1>e:\video_project\program\camera_reciv\camera_reciv\include/jrtplib/rtpudpv4transmitter.h(163): warning C4251: “jrtplib::RTPUDPv4TransmissionInfo::localIPlist”: class“std::list<uint32_t,std::allocator<_Ty>>”需要有 dll 接口由 class“jrtplib::RTPUDPv4TransmissionInfo”的客户端使用
+                 with
+                 [
+                     _Ty=size_t
+                 ]
+     1>e:\video_project\program\camera_reciv\camera_reciv\include/jrtplib/rtpudpv4transmitter.h(262): warning C4251: “jrtplib::RTPUDPv4Transmitter::localIPs”: class“std::list<uint32_t,std::allocator<_Ty>>”需要有 dll 接口由 class“jrtplib::RTPUDPv4Transmitter”的客户端使用
+                 with
+                 [
+                     _Ty=size_t
+                 ]
+     1>e:\video_project\program\camera_reciv\camera_reciv\include/jrtplib/rtpudpv4transmitter.h(270): warning C4251: “jrtplib::RTPUDPv4Transmitter::destinations”: class“jrtplib::RTPHashTable<const jrtplib::RTPIPv4Destination,jrtplib::RTPUDPv4Trans_GetHashIndex_IPv4Dest,8317>”需要有 dll 接口由 class“jrtplib::RTPUDPv4Transmitter”的客户端使用
+     1>e:\video_project\program\camera_reciv\camera_reciv\include/jrtplib/rtpudpv4transmitter.h(272): warning C4251: “jrtplib::RTPUDPv4Transmitter::multicastgroups”: class“jrtplib::RTPHashTable<const uint32_t,jrtplib::RTPUDPv4Trans_GetHashIndex_uint32_t,8317>”需要有 dll 接口由 class“jrtplib::RTPUDPv4Transmitter”的客户端使用
+     1>e:\video_project\program\camera_reciv\camera_reciv\include/jrtplib/rtpudpv4transmitter.h(274): warning C4251: “jrtplib::RTPUDPv4Transmitter::rawpacketlist”: class“std::list<jrtplib::RTPRawPacket *,std::allocator<_Ty>>”需要有 dll 接口由 class“jrtplib::RTPUDPv4Transmitter”的客户端使用
+                 with
+                 [
+                     _Ty=jrtplib::RTPRawPacket *
+                 ]
+     1>e:\video_project\program\camera_reciv\camera_reciv\include/jrtplib/rtpudpv4transmitter.h(288): warning C4251: “jrtplib::RTPUDPv4Transmitter::acceptignoreinfo”: class“jrtplib::RTPKeyHashTable<const uint32_t,jrtplib::RTPUDPv4Transmitter::PortInfo *,jrtplib::RTPUDPv4Trans_GetHashIndex_uint32_t,8317>”需要有 dll 接口由 class“jrtplib::RTPUDPv4Transmitter”的客户端使用
+     1>e:\video_project\program\camera_reciv\camera_reciv\include/jrtplib/rtpsessionparams.h(242): warning C4251: “jrtplib::RTPSessionParams::cname”: class“std::basic_string<char,std::char_traits<char>,std::allocator<char>>”需要有 dll 接口由 class“jrtplib::RTPSessionParams”的客户端使用
+     1>e:\video_project\program\camera_reciv\camera_reciv\include/jrtplib/rtpsourcedata.h(430): warning C4251: “jrtplib::RTPSourceData::packetlist”: class“std::list<jrtplib::RTPPacket *,std::allocator<_Ty>>”需要有 dll 接口由 class“jrtplib::RTPSourceData”的客户端使用
+                 with
+                 [
+                     _Ty=jrtplib::RTPPacket *
+                 ]
+     1>FFMPEG_Decode.cpp(66): warning C4996: 'avcodec_alloc_frame': 被声明为已否决
+         e:\video_project\program\camera_reciv\camera_reciv\include/libavcodec/avcodec.h(3491): note: 参见“avcodec_alloc_frame”的声明
+         RTPReciever.cpp
+     1>e:\video_project\program\camera_reciv\camera_reciv\include\opencv2\flann\logger.h(66): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         C:\Program Files (x86)\Windows Kits\10\Include\10.0.10150.0\ucrt\stdio.h(205): note: 参见“fopen”的声明
+     1>e:\video_project\program\camera_reciv\camera_reciv\include\jrtplib\rtpsources.h(349): warning C4251: “jrtplib::RTPSources::sourcelist”: class“jrtplib::RTPKeyHashTable<const uint32_t,jrtplib::RTPInternalSourceData *,jrtplib::RTPSources_GetHashIndex,8317>”需要有 dll 接口由 class“jrtplib::RTPSources”的客户端使用
+     1>e:\video_project\program\camera_reciv\camera_reciv\include\jrtplib\rtpcollisionlist.h(89): warning C4251: “jrtplib::RTPCollisionList::addresslist”: class“std::list<jrtplib::RTPCollisionList::AddressAndTime,std::allocator<_Ty>>”需要有 dll 接口由 class“jrtplib::RTPCollisionList”的客户端使用
+                 with
+                 [
+                     _Ty=jrtplib::RTPCollisionList::AddressAndTime
+                 ]
+     1>e:\video_project\program\camera_reciv\camera_reciv\include\jrtplib\rtcpsdesinfo.h(189): warning C4251: “jrtplib::RTCPSDESInfo::nonprivateitems”: class“jrtplib::RTCPSDESInfo::SDESItem”需要有 dll 接口由 class“jrtplib::RTCPSDESInfo”的客户端使用
+         e:\video_project\program\camera_reciv\camera_reciv\include\jrtplib\rtcpsdesinfo.h(141): note: 参见“jrtplib::RTCPSDESInfo::SDESItem”的声明
+     1>e:\video_project\program\camera_reciv\camera_reciv\include\jrtplib\rtcpsdesinfo.h(212): warning C4251: “jrtplib::RTCPSDESInfo::privitems”: class“std::list<jrtplib::RTCPSDESInfo::SDESPrivateItem *,std::allocator<_Ty>>”需要有 dll 接口由 class“jrtplib::RTCPSDESInfo”的客户端使用
+                 with
+                 [
+                     _Ty=jrtplib::RTCPSDESInfo::SDESPrivateItem *
+                 ]
+     1>e:\video_project\program\camera_reciv\camera_reciv\include\jrtplib\rtcpsdesinfo.h(213): warning C4251: “jrtplib::RTCPSDESInfo::curitem”: class“std::_List_const_iterator<std::_List_val<std::_List_simple_types<jrtplib::RTCPSDESInfo::SDESPrivateItem *>>>”需要有 dll 接口由 class“jrtplib::RTCPSDESInfo”的客户端使用
+     1>e:\video_project\program\camera_reciv\camera_reciv\include\jrtplib\rtcppacketbuilder.h(217): warning C4251: “jrtplib::RTCPPacketBuilder::ownsdesinfo”: class“jrtplib::RTCPPacketBuilder::RTCPSDESInfoInternal”需要有 dll 接口由 class“jrtplib::RTCPPacketBuilder”的客户端使用
+         e:\video_project\program\camera_reciv\camera_reciv\include\jrtplib\rtcppacketbuilder.h(196): note: 参见“jrtplib::RTCPPacketBuilder::RTCPSDESInfoInternal”的声明
+     1>e:\video_project\program\camera_reciv\camera_reciv\include\jrtplib\rtcpcompoundpacket.h(104): warning C4251: “jrtplib::RTCPCompoundPacket::rtcppacklist”: class“std::list<jrtplib::RTCPPacket *,std::allocator<_Ty>>”需要有 dll 接口由 class“jrtplib::RTCPCompoundPacket”的客户端使用
+                 with
+                 [
+                     _Ty=jrtplib::RTCPPacket *
+                 ]
+     1>e:\video_project\program\camera_reciv\camera_reciv\include\jrtplib\rtcpcompoundpacket.h(105): warning C4251: “jrtplib::RTCPCompoundPacket::rtcppackit”: class“std::_List_const_iterator<std::_List_val<std::_List_simple_types<jrtplib::RTCPPacket *>>>”需要有 dll 接口由 class“jrtplib::RTCPCompoundPacket”的客户端使用
+     1>e:\video_project\program\camera_reciv\camera_reciv\include\jrtplib\rtcpcompoundpacketbuilder.h(380): warning C4251: “jrtplib::RTCPCompoundPacketBuilder::report”: class“jrtplib::RTCPCompoundPacketBuilder::Report”需要有 dll 接口由 class“jrtplib::RTCPCompoundPacketBuilder”的客户端使用
+         e:\video_project\program\camera_reciv\camera_reciv\include\jrtplib\rtcpcompoundpacketbuilder.h(150): note: 参见“jrtplib::RTCPCompoundPacketBuilder::Report”的声明
+     1>e:\video_project\program\camera_reciv\camera_reciv\include\jrtplib\rtcpcompoundpacketbuilder.h(381): warning C4251: “jrtplib::RTCPCompoundPacketBuilder::sdes”: class“jrtplib::RTCPCompoundPacketBuilder::SDES”需要有 dll 接口由 class“jrtplib::RTCPCompoundPacketBuilder”的客户端使用
+         e:\video_project\program\camera_reciv\camera_reciv\include\jrtplib\rtcpcompoundpacketbuilder.h(271): note: 参见“jrtplib::RTCPCompoundPacketBuilder::SDES”的声明
+     1>e:\video_project\program\camera_reciv\camera_reciv\include\jrtplib\rtcpcompoundpacketbuilder.h(383): warning C4251: “jrtplib::RTCPCompoundPacketBuilder::byepackets”: class“std::list<jrtplib::RTCPCompoundPacketBuilder::Buffer,std::allocator<_Ty>>”需要有 dll 接口由 class“jrtplib::RTCPCompoundPacketBuilder”的客户端使用
+                 with
+                 [
+                     _Ty=jrtplib::RTCPCompoundPacketBuilder::Buffer
+                 ]
+     1>e:\video_project\program\camera_reciv\camera_reciv\include\jrtplib\rtcpcompoundpacketbuilder.h(386): warning C4251: “jrtplib::RTCPCompoundPacketBuilder::apppackets”: class“std::list<jrtplib::RTCPCompoundPacketBuilder::Buffer,std::allocator<_Ty>>”需要有 dll 接口由 class“jrtplib::RTCPCompoundPacketBuilder”的客户端使用
+                 with
+                 [
+                     _Ty=jrtplib::RTCPCompoundPacketBuilder::Buffer
+                 ]
+     1>e:\video_project\program\camera_reciv\camera_reciv\include/jrtplib/rtpsession.h(565): warning C4251: “jrtplib::RTPSession::byepackets”: class“std::list<jrtplib::RTCPCompoundPacket *,std::allocator<_Ty>>”需要有 dll 接口由 class“jrtplib::RTPSession”的客户端使用
+                 with
+                 [
+                     _Ty=jrtplib::RTCPCompoundPacket *
+                 ]
+     1>e:\video_project\program\camera_reciv\camera_reciv\include/jrtplib/rtpudpv4transmitter.h(131): warning C4251: “jrtplib::RTPUDPv4TransmissionParams::localIPs”: class“std::list<uint32_t,std::allocator<_Ty>>”需要有 dll 接口由 class“jrtplib::RTPUDPv4TransmissionParams”的客户端使用
+                 with
+                 [
+                     _Ty=size_t
+                 ]
+     1>e:\video_project\program\camera_reciv\camera_reciv\include/jrtplib/rtpudpv4transmitter.h(163): warning C4251: “jrtplib::RTPUDPv4TransmissionInfo::localIPlist”: class“std::list<uint32_t,std::allocator<_Ty>>”需要有 dll 接口由 class“jrtplib::RTPUDPv4TransmissionInfo”的客户端使用
+                 with
+                 [
+                     _Ty=size_t
+                 ]
+     1>e:\video_project\program\camera_reciv\camera_reciv\include/jrtplib/rtpudpv4transmitter.h(262): warning C4251: “jrtplib::RTPUDPv4Transmitter::localIPs”: class“std::list<uint32_t,std::allocator<_Ty>>”需要有 dll 接口由 class“jrtplib::RTPUDPv4Transmitter”的客户端使用
+                 with
+                 [
+                     _Ty=size_t
+                 ]
+     1>e:\video_project\program\camera_reciv\camera_reciv\include/jrtplib/rtpudpv4transmitter.h(270): warning C4251: “jrtplib::RTPUDPv4Transmitter::destinations”: class“jrtplib::RTPHashTable<const jrtplib::RTPIPv4Destination,jrtplib::RTPUDPv4Trans_GetHashIndex_IPv4Dest,8317>”需要有 dll 接口由 class“jrtplib::RTPUDPv4Transmitter”的客户端使用
+     1>e:\video_project\program\camera_reciv\camera_reciv\include/jrtplib/rtpudpv4transmitter.h(272): warning C4251: “jrtplib::RTPUDPv4Transmitter::multicastgroups”: class“jrtplib::RTPHashTable<const uint32_t,jrtplib::RTPUDPv4Trans_GetHashIndex_uint32_t,8317>”需要有 dll 接口由 class“jrtplib::RTPUDPv4Transmitter”的客户端使用
+     1>e:\video_project\program\camera_reciv\camera_reciv\include/jrtplib/rtpudpv4transmitter.h(274): warning C4251: “jrtplib::RTPUDPv4Transmitter::rawpacketlist”: class“std::list<jrtplib::RTPRawPacket *,std::allocator<_Ty>>”需要有 dll 接口由 class“jrtplib::RTPUDPv4Transmitter”的客户端使用
+                 with
+                 [
+                     _Ty=jrtplib::RTPRawPacket *
+                 ]
+     1>e:\video_project\program\camera_reciv\camera_reciv\include/jrtplib/rtpudpv4transmitter.h(288): warning C4251: “jrtplib::RTPUDPv4Transmitter::acceptignoreinfo”: class“jrtplib::RTPKeyHashTable<const uint32_t,jrtplib::RTPUDPv4Transmitter::PortInfo *,jrtplib::RTPUDPv4Trans_GetHashIndex_uint32_t,8317>”需要有 dll 接口由 class“jrtplib::RTPUDPv4Transmitter”的客户端使用
+     1>e:\video_project\program\camera_reciv\camera_reciv\include/jrtplib/rtpsessionparams.h(242): warning C4251: “jrtplib::RTPSessionParams::cname”: class“std::basic_string<char,std::char_traits<char>,std::allocator<char>>”需要有 dll 接口由 class“jrtplib::RTPSessionParams”的客户端使用
+     1>e:\video_project\program\camera_reciv\camera_reciv\include/jrtplib/rtpsourcedata.h(430): warning C4251: “jrtplib::RTPSourceData::packetlist”: class“std::list<jrtplib::RTPPacket *,std::allocator<_Ty>>”需要有 dll 接口由 class“jrtplib::RTPSourceData”的客户端使用
+                 with
+                 [
+                     _Ty=jrtplib::RTPPacket *
+                 ]
+       Link:
+         C:\VS2015\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"E:\Video_Project\program\Camera_Reciv\Release\Camera_Reciv.exe" /INCREMENTAL:NO /NOLOGO /LIBPATH:"C:\Program Files (x86)\Visual Leak Detector\lib\Win32" avcodec.lib avutil.lib opencv_core249d.lib swscale.lib opencv_highgui249d.lib jrtplib.lib jrtplib_d.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /Debug /PDB:"E:\Video_Project\program\Camera_Reciv\Release\Camera_Reciv.pdb" /SUBSYSTEM:CONSOLE /OPT:REF /OPT:ICF /LTCG:incremental /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:\Video_Project\program\Camera_Reciv\Release\Camera_Reciv.lib" /MACHINE:X86 /SAFESEH  /SAFESEH:NO Release\Camera_Reciv.obj
+         Release\FFMPEG_Decode.obj
+         Release\RTPReciever.obj
+         Release\stdafx.obj
+         正在生成代码
+         0 of 100 functions ( 0.0%) were compiled, the rest were copied from previous compilation.
+           0 functions were new in current compilation
+           0 functions had inline decision re-evaluated but remain unchanged
+         已完成代码的生成
+         Camera_Reciv.vcxproj -> E:\Video_Project\program\Camera_Reciv\Release\Camera_Reciv.exe
+     1>已完成生成项目“E:\Video_Project\program\Camera_Reciv\Camera_Reciv\Camera_Reciv.vcxproj”(Rebuild 个目标)的操作。
+
+已成功生成。
+
+已用时间 00:00:04.43
